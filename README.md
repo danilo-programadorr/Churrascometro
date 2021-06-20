@@ -5,6 +5,7 @@
 
 <h2>Sobre</h2>
 Um projeto para calcular qual será a quantidade média que irá usar no churrasco , com base na quantidade de adultos , crianças e o tempo de duração .
+link do projeto :https://churrascometro-eosin.vercel.app/
 
 <h2>Funcionalidades</h2>
 Nos campos superior vai preencher a quantidade de adultos,criança e quanto tempo irá durar o evento 
