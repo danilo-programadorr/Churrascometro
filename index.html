@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="chortcut icon" href="./imagens/churrasco.png" />
+    <script
+      src="https://kit.fontawesome.com/95c3a570a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <title>chucrrascômetro</title>
+  </head>
+  <body>
+    <!---------- inicio container da aplicação ---------->
+    <main class="container">
+      <section>
+        <!---------- Área do Titulo principal ---------->
+        <header>
+          <h1>Churrascômetro</h1>
+        </header>
+        <!---------- Área do input ---------->
+        <div>
+          <input
+            id="adultos"
+            name="adultos"
+            type="number"
+            placeholder="Adultos"
+            required
+          />
+
+          <input
+            id="criancas"
+            name="criancas"
+            type="number"
+            placeholder="Crianças"
+            required
+          />
+
+          <input
+            id="duracao"
+            name="duracao"
+            type="number"
+            placeholder="Duração"
+            required
+          />
+        </div>
+        <!---------- Área dos botões  ---------->
+        <div class="botao">
+          <button onclick="calcular()">
+            <i class="fas fa-calculator"></i> Calcular
+          </button>
+          <button onclick="limpar()">
+            <i class="fas fa-trash-alt"></i> Limpar
+          </button>
+        </div>
+        <!---------- resultado ---------->
+        <div id="resultado"></div>
+      </section>
+      <!---------- Fim container da aplicação---------->
+    </main>
+    <!---------- inicio configuração para Mobile icons redes sociais ---------->
+    <div class="icons">
+      <p class="mostrar">Linkedin</p>
+      <a
+        href="https://www.linkedin.com/in/danilo-oliveira-santos-20b2641b7/"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i>
+      </a>
+      <p class="mostrar">GitHub</p>
+      <a href="https://github.com/danilo-programadorr" target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+
+      <p class="mostrar">Instagram</p>
+      <a href="https://www.instagram.com/danillocode/" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <!---------- Fim configuração para Mobile icons redes sociais ---------->
+    </div>
+
+    <!----------inicio configuração para desktop icons redes sociais  ---------->
+    <section class="wrapper">
+      <div class="button">
+        <div class="icon">
+          <a
+            href="https://www.linkedin.com/in/danilo-oliveira-santos-20b2641b7/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+        <span>
+          <a
+            href="https://www.linkedin.com/in/danilo-oliveira-santos-20b2641b7/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </span>
+      </div>
+
+      <div class="button">
+        <div class="icon">
+          <a href="https://github.com/danilo-programadorr" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <span>
+          <a href="https://github.com/danilo-programadorr" target="_blank"
+            >GitHub</a
+          ></span
+        >
+      </div>
+
+      <div class="button">
+        <div class="icon">
+          <a href="https://www.instagram.com/danillocode/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <span>
+          <a href="https://www.instagram.com/danillocode/" target="_blank"
+            >Instagran</a
+          ></span
+        >
+      </div>
+      <!----------Fim configuração para Mobile icons redes sociais  ---------->
+    </section>
+
+    <!---------- Área do rodape  ---------->
+    <footer class="rodape">
+      <p>Desenvolvido por &nbsp;<strong> Danilo oliveira </strong>&nbsp;</p>
+      <p>Todos os direitos reservados - copyright &copy; 2021-2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
